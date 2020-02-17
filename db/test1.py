@@ -10,4 +10,4 @@ class Test1(orm.Model):
     __metadata__ = core.metadata
 
     id = orm.Integer(primary_key=True)
-    name = orm.String(index=True, max_length=30)
+    name = orm.String(index=True, max_length=10)
